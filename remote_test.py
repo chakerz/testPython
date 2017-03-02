@@ -1,6 +1,7 @@
 from appium import webdriver
 import time
 
+#Desired Capabilities
 desired_caps = {}
 desired_caps['platformName'] = 'Android'
 desired_caps['appiumVersion'] = '1.6.3'

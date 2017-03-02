@@ -3,12 +3,14 @@ import unittest
 from appium import webdriver
 from selenium.webdriver.common.by import By
 
+#Desired Capabilities
 desired_caps = {}
 desired_caps['platformName'] = 'Android'
 desired_caps['platformVersion'] = '5.1.1'
 desired_caps['deviceName'] = 'Android Emulator'
 desired_caps['app'] = '/Users/chakerz/Documents/ExpenseManager.apk'
 
+#Appium Server running in Localhost
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
 

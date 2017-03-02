@@ -4,9 +4,6 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 caps = DesiredCapabilities.FIREFOX
 
 # Tell the Python bindings to use Marionette.
-# This will not be necessary in the future,
-# when Selenium will auto-detect what remote end
-# it is talking to.
 caps["marionette"] = True
 
 # Path to Firefox DevEdition or Nightly.
